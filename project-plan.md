@@ -14,7 +14,7 @@ We are building a Windows Command line app in C# 13 and .NET 9.  This app is bas
 
 ## Implementation details:
  - This will be a simple .net command line app that runs in the background. There will be no graphical user interface.
- - Do not use any third-party libraries unless absolutely required. Interact with the opening eye api via REST and websockets directly, not with their SDK package.
+ - Do not use any third-party libraries unless absolutely required. Interact with the opening eye api via REST and websockets directly, not with their SDK package.  Use system.text.json rather than newtonshoft json.
  - There must be an Open AI API key in the user's environment variables or specified as part of the command line arguments.  If specified as a command line argument, save it as a user preference Somewhere so it does not need to be manually specified every time in the future
  - Record any token or cost statistics returned by the openAI API and aggregate them so the user can request a report of the costs involved with using the tool
 
