@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target .NET 9 as per our project plan -->
+    <TargetFramework>net9.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- xUnit packages -->
+    <PackageReference Include="xunit" Version="2.5.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Reference to the main Input Assistant project -->
+    <ProjectReference Include="..\InputAssistant\InputAssistant.csproj" />
+  </ItemGroup>
+
+</Project>
