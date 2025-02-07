@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Roger\\source\\repos\\input-assistant\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|c:\\users\\roger\\source\\repos\\input-assistant\\screenshothelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|solutionrelative:screenshothelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|c:\\users\\roger\\source\\repos\\input-assistant\\voicecommandprocessortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|solutionrelative:voicecommandprocessortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|c:\\users\\roger\\source\\repos\\input-assistant\\project-plan.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|solutionrelative:project-plan.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|c:\\users\\roger\\source\\repos\\input-assistant\\configmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|solutionrelative:configmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|c:\\users\\roger\\source\\repos\\input-assistant\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBB5A585-7C21-41CF-9DB2-EF74A5A1FF9E}|Input-Assistant.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 372,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,20 +38,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\input-assistant\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Roger\\source\\repos\\input-assistant\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "VoiceCommandProcessorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\input-assistant\\VoiceCommandProcessorTests.cs",
+              "RelativeDocumentMoniker": "VoiceCommandProcessorTests.cs",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\input-assistant\\VoiceCommandProcessorTests.cs",
+              "RelativeToolTip": "VoiceCommandProcessorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T23:26:21.699Z",
+              "WhenOpened": "2025-02-07T23:44:26.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "project-plan.md",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\input-assistant\\project-plan.md",
+              "RelativeDocumentMoniker": "project-plan.md",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\input-assistant\\project-plan.md",
+              "RelativeToolTip": "project-plan.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAADXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-02-07T23:43:54.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScreenshotHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\input-assistant\\ScreenshotHelper.cs",
+              "RelativeDocumentMoniker": "ScreenshotHelper.cs",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\input-assistant\\ScreenshotHelper.cs*",
+              "RelativeToolTip": "ScreenshotHelper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T23:42:04.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigManagerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\input-assistant\\ConfigManagerTests.cs",
+              "RelativeDocumentMoniker": "ConfigManagerTests.cs",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\input-assistant\\ConfigManagerTests.cs",
+              "RelativeToolTip": "ConfigManagerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T23:41:07.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\input-assistant\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\input-assistant\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T23:26:21.699Z",
+              "EditorCaption": ""
             }
           ]
         }

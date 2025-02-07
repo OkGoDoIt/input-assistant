@@ -398,9 +398,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-.vs/Input-Assistant/CopilotIndices/17.12.53.23981/SemanticSymbols.db-shm
-.vs/Input-Assistant/CopilotIndices/17.12.53.23981/SemanticSymbols.db-wal
-.vs/Input-Assistant/FileContentIndex/46df6ca2-d621-4d16-a87f-58db35d259c5.vsidx
-.vs/Input-Assistant/v17/.suo
-.vs/Input-Assistant/v17/DocumentLayout.backup.json
-.vs/Input-Assistant/v17/DocumentLayout.json
+.vs
+.vs/
+.vs/*
