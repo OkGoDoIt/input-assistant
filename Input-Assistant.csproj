@@ -9,9 +9,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="guides\**" />
+    <Compile Remove="InputAssistant.Tests\**" />
+    <EmbeddedResource Remove="guides\**" />
+    <EmbeddedResource Remove="InputAssistant.Tests\**" />
+    <None Remove="guides\**" />
+    <None Remove="InputAssistant.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="VoiceCommandProcessorTests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="9.0.1" />
     <PackageReference Include="System.Text.Json" Version="9.0.1" />
-    <PackageReference Include="xunit" Version="2.9.3" />
   </ItemGroup>
 
 </Project>

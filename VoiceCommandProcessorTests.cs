@@ -1,7 +1,7 @@
 using Xunit;
 using Input_Assistant;
 
-namespace InputAssistant.Tests
+namespace Input_Assistant.Tests
 {
     /// <summary>
     /// Contains tests for the VoiceCommandProcessor.

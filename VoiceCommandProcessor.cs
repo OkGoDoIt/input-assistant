@@ -3,7 +3,7 @@ namespace Input_Assistant
     /// <summary>
     /// Processes transcribed text to detect and interpret commands.
     /// </summary>
-    internal class VoiceCommandProcessor
+    public class VoiceCommandProcessor
     {
         /// <summary>
         /// Analyzes transcribed text to identify and execute commands like "type code" or "replace X with Y".

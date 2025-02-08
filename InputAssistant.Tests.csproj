@@ -7,15 +7,35 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- xUnit packages -->
-    <PackageReference Include="xunit" Version="2.5.0" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.0" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.1"/>
+    <Compile Remove="guides\**" />
+    <EmbeddedResource Remove="guides\**" />
+    <None Remove="guides\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <!-- Reference to the main Input Assistant project -->
-    <ProjectReference Include="..\InputAssistant\InputAssistant.csproj" />
+    <Compile Remove="ConfigManager.cs" />
+    <Compile Remove="InputSimulator.cs" />
+    <Compile Remove="KeyboardHookManager.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="ScreenshotHelper.cs" />
+    <Compile Remove="SpeechToTextService.cs" />
+    <Compile Remove="StatisticsManager.cs" />
+    <Compile Remove="VoiceCommandProcessor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- xUnit packages -->
+    <PackageReference Include="System.Drawing.Common" Version="9.0.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Input-Assistant.csproj" />
   </ItemGroup>
 
 </Project>
