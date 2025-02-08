@@ -18,7 +18,7 @@ namespace InputAssistant.Tests
             var config = ConfigManager.LoadConfig(args);
 
             // Assert: the default API key should be the placeholder.
-            Assert.Equal("YOUR_API_KEY", config.ApiKey);
+            Assert.Equal("YOUR_API_KEY", config.OpenAIApiKey);
         }
     }
 }

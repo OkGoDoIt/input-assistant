@@ -16,7 +16,7 @@ namespace Input_Assistant
             // Initialize services
             var keyboardHook = new KeyboardHookManager();
             var voiceCommandProcessor = new VoiceCommandProcessor();
-            var speechService = new SpeechToTextService(config.ApiKey);
+            var speechService = new SpeechToTextService(config.OpenAIApiKey);
             var inputSimulator = new InputSimulator();
             var screenshotHelper = new ScreenshotHelper();
             var statsManager = new StatisticsManager();
