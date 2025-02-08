@@ -11,10 +11,13 @@
   <ItemGroup>
     <Compile Remove="guides\**" />
     <Compile Remove="InputAssistant.Tests\**" />
+    <Compile Remove="Input_Assistant.Tests\**" />
     <EmbeddedResource Remove="guides\**" />
     <EmbeddedResource Remove="InputAssistant.Tests\**" />
+    <EmbeddedResource Remove="Input_Assistant.Tests\**" />
     <None Remove="guides\**" />
     <None Remove="InputAssistant.Tests\**" />
+    <None Remove="Input_Assistant.Tests\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +29,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NAudio.Core" Version="2.2.1" />
+    <PackageReference Include="NAudio.Wasapi" Version="2.2.1" />
+    <PackageReference Include="NAudio.WinMM" Version="2.2.1" />
     <PackageReference Include="System.Drawing.Common" Version="9.0.1" />
     <PackageReference Include="System.Text.Json" Version="9.0.1" />
   </ItemGroup>

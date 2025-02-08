@@ -24,6 +24,7 @@ The project is organized into distinct modules, each responsible for a specific 
     - Capture and stream audio to the OpenAI real-time voice API.
     - Process incremental transcriptions and handle connection lifecycle.
     - Support both REST and WebSocket connections.
+    - We are using the openai real time voice websocket api (We are not using the basic transcription api)
 
 - **Keyboard Input Handling**
   - **Keyboard Hooks**

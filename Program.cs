@@ -30,7 +30,7 @@ namespace Input_Assistant
 
             // Shutdown services gracefully when exiting.
             keyboardHook.Stop();
-            speechService.StopTranscription();
+            speechService.StopListeningAsync().RunSynchronously();
         }
     }
 }
